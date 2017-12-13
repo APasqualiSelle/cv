@@ -1,0 +1,34 @@
+
+
+
+.conteneur {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:flex-end;
+
+}
+
+
+
+.element
+{
+	background: #ddd;
+	width:auto;
+	height:auto;
+	margin:auto;
+	
+}
+
+.element1 img
+{
+height:300px;
+width:100px;
+
+}
+
+.element2 img
+{
+	height:500px;
+	width:350px;
+}

@@ -1,0 +1,10 @@
+Projeto Versionner Cv
+
+Lista de atividades
+
+1.Me posicionar no repertório git bash - ok
+2.verificar a branch cv1 -  ok
+3. fazer um git push na minha branch para o git hub - ok
+4.continuar a arrumar o cv -ok
+5. fiz um git merge
+6.volto para a branch cv1 para escutar o meu segundo professor

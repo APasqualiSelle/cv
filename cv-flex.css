@@ -1,0 +1,68 @@
+#container {
+
+	display:flex;
+}
+
+#grid {
+
+	margin-bottom:1rem;
+	padding:3vw;
+
+}
+
+/*I did not understand much well this concept*/
+section:last-child {
+
+	margin-bottom:0;
+}
+
+/*small screens*/
+@media only screen and (max-width: 900px) {
+
+#container {
+
+	flex-direction:column;
+}
+
+nav {
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;/*center vertically*/
+	align-items:center;/*center horizontally*/
+	text-align:center;
+ 	
+ }
+
+ .grid-ma-formation, .grid-challenges, .grid-experience, .grid-quality {
+
+ 	width:85%;
+
+
+  }
+}
+
+/*large screens*/
+@media only screen and (min-width:901px) {
+
+	#nav-container {
+
+		flex:35vw;
+	}
+
+	nav {
+
+		flex:35vw;
+		position:fixed;/*after this, we need reconfigurate all above...*/
+		height:100vw;
+		width:35vw;
+	}
+
+
+
+	#grid {
+		display:flex;
+		flex-wrap:wrap;
+		flex:65vw;
+	}
+}

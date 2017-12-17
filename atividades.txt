@@ -8,3 +8,7 @@ Lista de atividades
 4.continuar a arrumar o cv -ok
 5. fiz um git merge
 6.volto para a branch cv1 para escutar o meu segundo professor
+Problems: it does not appear the rest of my html file! only the
+Solution:git checkout master and then I opened the file and it worked
+Problem: I modified something in my master, but I wanted to continue into my branch. Git Stash...
+Problem:how to send a file to the webserver using git?
